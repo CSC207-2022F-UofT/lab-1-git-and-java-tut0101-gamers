@@ -40,7 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String wushengf(){
+        return printLabMessage("Hello guys,", "Thomas Wu", true,
+                "Nice to meet you!")
+    }
     /**
      * An example method that calls on printLabMessage.
      */
