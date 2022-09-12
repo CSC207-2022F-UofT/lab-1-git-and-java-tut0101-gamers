@@ -41,7 +41,7 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
     public static String wushengf(){
-        return printLabMessage("Hello guys,", "Thomas Wu", true,
+        return printLabMessage("Hello guys", "Thomas Wu", true,
                 "Nice to meet you!");
     }
     /**

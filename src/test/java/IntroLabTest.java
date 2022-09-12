@@ -30,8 +30,9 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
     public void testwushengf() {
-        String expected = "Hello guys, My name is Thomas Wu! " +
+        String expected = "Hello guys! My name is Thomas Wu! " +
                 "I like cats more than dogs! Nice to meet you!";
         String actual = IntroLab.wushengf();
         assertEquals(expected, actual);
