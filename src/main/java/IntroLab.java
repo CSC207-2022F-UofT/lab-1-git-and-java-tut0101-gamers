@@ -21,7 +21,7 @@ public class IntroLab {
      * @return A message using the given parameters.
      */
     public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+                                         boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
 
         if (likes_cats) {
@@ -42,7 +42,7 @@ public class IntroLab {
      */
     public static String wushengf(){
         return printLabMessage("Hello guys,", "Thomas Wu", true,
-                "Nice to meet you!")
+                "Nice to meet you!");
     }
     /**
      * An example method that calls on printLabMessage.
@@ -62,10 +62,11 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(wushengf());
 
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
+
